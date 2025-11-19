@@ -37,6 +37,15 @@ body{
     margin-bottom: 10px;
 
 }
+.image:hover {
+    
+    background-color: #09ff00;
+    transform: scale(1.1);
+
+    transition: all 1s ease;
+    
+
+}
 .image #profile_image{
     height: 100%;
     width: 100%;
@@ -44,6 +53,7 @@ body{
     border-radius: 50%;
     border: 3px solid #fff;
 }
+
 .profile-card .text-data {
     display: flex;
     flex-direction: column;
